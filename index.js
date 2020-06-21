@@ -1,3 +1,13 @@
-// Hello there! This will be a tutorial with somewhat detailed description of what is happening...
+const discord = require('discord.js');
+const client = new discord.Client();
 
-const discord = require('discord.js'); // here you are requiring the discord.js package
+client.login('SUPER SECRET BOT TOKEN');
+
+// In this tutorial you will learn about making a config file, this will be done in STAGES
+
+// Stage 1: Requiring the config file
+
+const discord = require('discord.js');
+const client = new discord.Client();
+
++ cinst config
