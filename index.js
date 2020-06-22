@@ -10,4 +10,7 @@ client.login('SUPER SECRET BOT TOKEN');
 const discord = require('discord.js');
 const client = new discord.Client();
 
-+ cinst config
++ const config = requre('./database/config.json');
+
+// In this added link you make the variable called config then you tell the script to go find the file in the database folder
+
