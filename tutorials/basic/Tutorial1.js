@@ -24,3 +24,5 @@ client.on('message', message => {
     message.reply('Pong!');  // This line will make it so the bot sends a message tagging the user then say "Pong!" after the user is tagged!
   }
 });
+
+// Once you have mastered this you are ready to move onto Tutorial2.js || This will go into more detail about commands and setting
