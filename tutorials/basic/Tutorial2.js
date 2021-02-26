@@ -48,4 +48,12 @@ client.on('message', message => {
       }
   
       // To start of with, the switch function stores a variable. The "case" statements check the variable
+  
+    // Second option: IF
+      // I use this one because I find it the easiest and most coding languages use the "if" statement, it's set up like:
+    if(cmds.toLowerCase() === 'ping') {
+      message.reply('Pong!')
+    };
+  
+    // The "if" statement is much simpler and easier than the switch statement so that's why I use it.
 });
